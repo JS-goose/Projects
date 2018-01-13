@@ -1,0 +1,56 @@
+#cardNumber {
+  padding: 0 0 0 83%;
+  margin-top: 0;
+}
+
+#title {
+  font-family: "Berkshire Swash", cursive;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+img {
+  margin: 0 0 5% 11%;
+  border: solid rgba(0, 0, 0, 0.5) 1px;
+  border-radius: 1.5%;
+  box-shadow: 10px 10px 144px -27px rgba(0, 0, 0, 0.75);
+}
+
+#interestingFact {
+  font-style: italic;
+  padding-left: 0.5%;
+}
+
+span {
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+div {
+  border: solid rgba(0, 0, 0, 0.2) 1px;
+}
+
+#outerDiv {
+  width: 400px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 197, 120, 1) 0%,
+    rgba(255, 197, 120, 0.3) 100%
+  );
+  /* background-color: rgba(125, 132, 8, 0.2); */
+}
+
+#innerDiv {
+  margin: 10px;
+  width: 95%;
+  /* background-color: rgba(226, 132, 8, 0.499); */
+}
+
+#facts {
+  padding-left: 0.5%;
+}
