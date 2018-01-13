@@ -1,5 +1,5 @@
 #cardNumber {
-  padding: 0 0 0 83%;
+  padding: 0 0 0 88%;
   margin-top: 0;
 }
 
@@ -12,7 +12,7 @@
 }
 
 img {
-  margin: 0 0 5% 11%;
+  margin: 0 0 5% 2.8%;
   border: solid rgba(0, 0, 0, 0.5) 1px;
   border-radius: 1.5%;
   box-shadow: 10px 10px 144px -27px rgba(0, 0, 0, 0.75);
@@ -36,7 +36,7 @@ div {
 }
 
 #outerDiv {
-  width: 400px;
+  width: 320px;
   background: linear-gradient(
     to bottom,
     rgba(255, 197, 120, 1) 0%,
