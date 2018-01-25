@@ -1,4 +1,4 @@
-# Udacity-Projects
-Projects from the Grow with Google &amp; Udacity Scholarship Program
+# Projects
+Projects from many different sources (courses I've taken, ideas I've had, etc.).
 
-This is a place to keep the projects I build from the Grow with Google &amp; Udacity Scholarship Program.
+I have built these projects with my own knowledge and skill after completing respective courses/material.
