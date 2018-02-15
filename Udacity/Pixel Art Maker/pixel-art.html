@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Pixel Art Maker!</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Lobster|Bungee+Shade|Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="pixel-art.css">
+
+</head>
+
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <div id="grid">
+        <h2>Choose Grid Size</h2>
+        <form id="sizePicker">
+            Grid Height:
+            <input type="number" id="inputHeight" name="height" min="1" value="1"> Grid Width:
+            <input type="number" id="inputWidth" name="width" min="1" value="1">
+            <input id="button" type="submit">
+        </form>
+
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker">
+        <div id="eraser">
+            <h2>Eraser</h2>
+            <button id="eraserButton" type="submit">Clear All Styling</button>
+            <p>Double Click to remove color</p>
+        </div>
+    </div>
+
+
+    <div id="design">
+        <h2>Design Canvas</h2>
+        <table id="pixelCanvas"></table>
+    </div>
+
+
+
+    <!-- jQuery CDN -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="pixel-art.js"></script>
+</body>
+
+</html>
