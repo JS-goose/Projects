@@ -24,8 +24,9 @@ $(document).ready(function(event) {
     while (height < inputHeight) {
       height++;
       pixelCanvas.append("<tr></tr>");
-      // for (let height = 0; height < inputHeight; height++) {
-      //     pixelCanvas.append('<tr></tr>');
+      /*This for loop was changed to the above while loop to meet the project rubric
+       for (let height = 0; height < inputHeight; height++) {
+      pixelCanvas.append('<tr></tr>');*/
       for (let width = 0; width < inputWidth; width++) {
         pixelCanvas
           .children()
