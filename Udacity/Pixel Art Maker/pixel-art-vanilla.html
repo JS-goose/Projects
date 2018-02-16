@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Pixel Art Maker!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="pixel-art-vanilla.css">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <div id="grid">
+        <h2>Choose Grid Size</h2>
+        <form id="sizePicker">
+            Grid Height:
+            <input type="number" id="inputHeight" name="height" min="1" value="1"> Grid Width:
+            <input type="number" id="inputWidth" name="width" min="1" value="1">
+            <input id="button" type="submit">
+        </form>
+
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker">
+        <div id="eraser">
+            <h2>Eraser</h2>
+            <button id="eraserButton" type="submit">Clear All Styling</button>
+            <p>Double Click to remove color</p>
+        </div>
+    </div>
+
+
+    <div id="design">
+        <h2>Design Canvas</h2>
+        <table id="pixelCanvas"></table>
+    </div>
+
+
+
+    <script src="pixel-art-vanilla.js"></script>
+</body>
+
+</html>
