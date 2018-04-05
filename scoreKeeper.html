@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Score Keeper App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/scoreKeeper.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="instructions">
+        <h2>Instructions</h2>
+        <ol>
+            <li>Set a maximum score with your mouse or keyboard</li>
+            <li>Select a player</li>
+            <li>Tap until you win!</li>
+        </ol>
+    </div>
+
+    <div class="score">
+        <p class="player">Player One Score:</p>
+        <h1 id="playerOneScore"></h1>
+        <!-- <h1>to</h1> -->
+        <p class="player">Player Two Score:</p>
+        <h1 id="playerTwoScore"></h1>
+    </div>
+
+    <div class="action">
+        <p id="playingTo"></p>
+        <input type="number" id="maxNumber" placeholder="Select Score Max"></input>
+        <button type="button" id="playerOne">Player One</button>
+        <button type="button" id="playerTwo">Player Two</button>
+        <button type="reset" id="reset">Reset</button>
+    </div>
+
+    <script src="../js/scoreKeeper.js"></script>
+</body>
+
+</html>
