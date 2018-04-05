@@ -1,0 +1,26 @@
+body {
+    background: url(../images/stars.jpg);
+    object-fit: cover;
+    color: white;
+}
+
+.instructions {
+    margin-left: 40%;
+}
+button {
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+.score {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.action {
+    margin-left: 40%;;
+}
+.green {
+    color: rgb(8, 245, 8);
+    font-weight: bold;
+}
