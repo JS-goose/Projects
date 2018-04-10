@@ -6,9 +6,9 @@ I have built these projects with my own knowledge and skill after completing res
 
 Each source I've used has it's own folder and corresponding files. Some of these courses are paid and some are free, I will note this in the list below. Eventually I'll get around to adding a comprehensive list of the all the resources I've used but if you'd like a list of a few you can find them below (in no particular order):
 
-<ul>
-<li><a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a></li>
-<li><a href="https://www.codecademy.com" target="_blank">CodeCademy</a></ul>
-<li><a href="https://www.udemy.com" target="_blank">Udemy Courses</a></li>
-<li><a href="https://www.udacity.com" target="_blank">freeCodeCamp</a></li>
+<li>
+<li><a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp - free</a></li>
+<li><a href="https://www.codecademy.com" target="_blank">CodeCademy - free and paid</a></li>
+<li><a href="https://www.udemy.com" target="_blank">Udemy Courses - free and paid</a></li>
+<li><a href="https://www.udacity.com" target="_blank">Udacity - free and paid</a></li>
 </ul>
