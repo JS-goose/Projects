@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background-color: khaki;
+}
+/* Site Wrapper for Grid */
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "divider divider divider"
+    "body body body"
+    "footer footer footer";
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+}
+/* Header - Contains Title */
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: header;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: lightblue;
+  margin-bottom: 2em;
+}
+.header h1 {
+  grid-column: 2 / 3;
+  font-family: "Kurale", serif;
+  color: lightcoral;
+  text-shadow: 1px 1px 1px black;
+  line-height: 1.2;
+}
+#pickedColorSpan {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+/* Divider section between header and content */
+#newColors:hover {
+  background: lightcoral;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  transition: background 0.1s;
+}
+.divider {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: divider;
+  align-items: center;
+  background-color: honeydew;
+  height: 80px;
+  padding-left: 1.5em;
+}
+.button {
+  background: none;
+  font-family: "Raleway", sans-serif;
+  border: none;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5%;
+  outline: none;
+}
+.button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+/* Game mode Grid inside Divider */
+.modeSection {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(80px, 1fr));
+  grid-column: 2 / span 1;
+  align-content: center;
+  justify-items: center;
+}
+/* Class to show/hide squares in easy/hard mode */
+.hidden {
+  visibility: hidden;
+}
+.selected {
+  font-family: "Raleway", sans-serif;
+  background: lightcoral;
+  font-weight: bold;
+  font-size: 1em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+/* Content Body */
+.guess {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-area: body;
+  justify-items: center;
+  align-content: start;
+}
+.guessingBody {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-column: 2 / span 1;
+  grid-gap: 15px;
+  justify-items: center;
+  align-content: start;
+}
+/* Color Squares */
+.colorBox {
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+  transition: background 0.2s;
+}
+/* Correct answer styling */
+.correct {
+  visibility: hidden;
+}
+.answer {
+  grid-column: 2 / 3;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2em;
+}
+
+/* Instructions */
+.instructions {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-area: body;
+  grid-column: 
+}
+/* Footer Styling */
+.footer {
+  font-family: "Lobster", serif, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-area: footer;
+  background-color: lightblue;
+  justify-items: center;
+  align-content: center;
+}
+#social {
+  grid-column: 3 / span 1;
+  font-size: 3em;
+}
+#social a:hover {
+  color: lightcoral;
+}
+#social a {
+  color: black;
+}
+.trademark a {
+  text-decoration: none;
+  color: lightcoral;
+  text-shadow: 2px 2px 2px black;
+}
