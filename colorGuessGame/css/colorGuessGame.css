@@ -115,17 +115,8 @@ body {
 }
 .answer {
   grid-column: 2 / 3;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lobster", serif, sans-serif;
   font-size: 2em;
-}
-
-/* Instructions */
-.instructions {
-  display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
-  grid-area: body;
-  grid-column: 
 }
 /* Footer Styling */
 .footer {
@@ -146,6 +137,7 @@ body {
 }
 #social a {
   color: black;
+  text-decoration: none;
 }
 .trademark a {
   text-decoration: none;
