@@ -1,15 +1,12 @@
-let numSquares = 6;
 let squares = document.querySelectorAll(".colorBox");
 let one = document.querySelector(".one");
+let numSquares = 6;
 let colors = generateRandColors(numSquares);
 let pickedColor = randNumber();
 let pickedColorSpan = document.getElementById("pickedColorSpan");
 const rightAnswer = document.querySelector(".correct");
 const boxes = document.querySelectorAll(".box");
-// const header = document.querySelector(".header");
-// const footer = document.querySelector(".footer");
 const newColors = document.getElementById("newColors");
-let gameWon = false;
 const buttonEasy = document.getElementById("buttonEasy");
 const buttonHard = document.getElementById("buttonHard");
 const mode = document.querySelectorAll(".mode");
@@ -28,18 +25,10 @@ function colorLoop() {
     squares[i].style.background = colors[i];
   }
 }
-
-
-// for (let i = 0; i < boxes.length; i++) {
-//   boxes[i].style.backgroundColor = "lightblue";
-// }
-
 // Provides logic for mode buttons when clicked
 function buttonLogic() {
   rightAnswer.classList.add("correct");
-  boxes.forEach(box => box.style.backgroundColor = "lightblue");
-  // header.style.backgroundColor = "lightblue";
-  // footer.style.backgroundColor = "lightblue";
+  boxes.forEach(boxes => boxes.style.backgroundColor = "lightblue");
   colors = generateRandColors(numSquares);
   pickedColor = randNumber();
   pickedColorSpan.innerHTML = pickedColor;
@@ -61,10 +50,7 @@ for (let i = 0; i < squares.length; i++) {
       this.style.backgroundColor = "rgb(240, 230, 140)";
       rightAnswer.classList.remove("correct");
       colorChange(clickedColor);
-      boxes.forEach(box => box.style.backgroundColor = pickedColor);
-      //   header.style.backgroundColor = pickedColor;
-      //   footer.style.backgroundColor = pickedColor;
-      gameWon = true;
+      boxes.forEach(boxes => boxes.style.backgroundColor = pickedColor);
       newColors.innerHTML = "Play Again?";
     } else {
       this.style.backgroundColor = "rgb(240, 230, 140)";
@@ -108,10 +94,7 @@ function randColor() {
   return "rgb(" + red + ", " + green + ", " + blue + ")";
 }
 // ***Features and Functionality***
-// New Colors
-
-/* ###TODO LIST###
-1.  Fix newColors button to show 6 squares when clicking "play again" after being on easy mode*/
+// New Colors Button
 newColors.addEventListener("click", function() {
   rightAnswer.classList.add("correct");
   if (hardMode) {
@@ -135,12 +118,10 @@ newColors.addEventListener("click", function() {
     five.classList.add("hidden");
     six.classList.add("hidden");
   }
-  // Resets New Colors Button to "New Colors" after winning
+  // Resets text on button to "New Colors" after winning
   this.innerHTML = "New Colors";
   // Resets header color to default after winning
-  boxes.forEach(box => box.style.backgroundColor = "lightblue");
-//   header.style.backgroundColor = "lightblue";
-//   footer.style.backgroundColor = "lightblue";
+  boxes.forEach(boxes => boxes.style.backgroundColor = "lightblue");
 });
 
 // Setting the game mode
