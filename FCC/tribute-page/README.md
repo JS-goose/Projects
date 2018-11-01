@@ -4,6 +4,6 @@ This is the tribute page I built as part of the freeCodeCamp cirriculum _before_
 
 Below is the image of my brother, who I built my tribute page for.
 
-<img src="https://github.com/JS-goose/Projects/blob/master/FCC/jeremy.jpg?raw=true" width=420 height=500>
+![jeremy sexton](jeremy.jpg)
 
 
