@@ -6,7 +6,7 @@ body {
   width: 100%;
 }
 
-.wrapper {
+#main {
   display: grid;
   grid-template-areas: "header header header", "content content content",
     "footer footer footer";
@@ -19,7 +19,7 @@ body {
   background-color: lightblue;
   width: 100%;
   height: 100px;
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 #title {
-  margin-top: 5%;
+  margin-top: 8%;
   text-align: center;
 }
 
@@ -45,16 +45,15 @@ body {
   grid-area: content;
   display: grid;
   width: 100%;
-  justify-items: center;
 }
 
 img {
+  justify-self: center;
   width: 30%;
   display: block;
 }
 #footer {
-  position: fixed;
-  bottom: 0;
+  grid-area: "footer";
   width: 100%;
   background: lightsalmon;
 }
