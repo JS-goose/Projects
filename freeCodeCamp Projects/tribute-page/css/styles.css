@@ -6,6 +6,10 @@ body {
   width: 100%;
   font-size: 14;
 }
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
 
 #main {
   display: grid;
@@ -74,10 +78,18 @@ figure {
 }
 
 #help p {
-text-align: center;
+  text-align: center;
+}
+
+#contact_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
 }
 
 #footer {
+  display: flex;
+  flex-flow: column nowrap;
   width: 100%;
   background: rgba(255, 160, 122, 0.5);
   padding: 10px 0;
