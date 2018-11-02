@@ -46,8 +46,9 @@ body {
 
 img {
   justify-self: center;
-  width: 30%;
-  max-width: 40%;
+  align-self: center;
+  width: 80%;
+  /* max-width: 40%; */
   display: block;
 }
 
