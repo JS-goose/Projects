@@ -62,6 +62,11 @@ img {
   text-align: start;
 }
 
+.date {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 #footer {
   grid-area: "footer";
   width: 100%;
