@@ -16,7 +16,7 @@ body {
     grid-area: "nav";
     border: 1px solid orange;
     background-color: lightblue;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -31,4 +31,8 @@ body {
     border: 1px solid purple;
     padding: 10px;
     margin-right: 10px;
+}
+
+#title {
+    text-align: center;
 }
