@@ -59,6 +59,9 @@ figure {
   text-align: start;
 }
 
+#timeline_header {
+  text-align: center;
+}
 .date {
   font-weight: bold;
   text-decoration: underline;
