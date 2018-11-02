@@ -59,6 +59,11 @@ figure {
   text-align: start;
 }
 
+hr {
+  width: 80%;
+  opacity: 0.3;
+}
+
 #timeline_header {
   text-align: center;
 }
