@@ -20,19 +20,6 @@ body {
   top: 0;
 }
 
-#nav_list {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 5px;
-}
-
-.nav_item {
-  border: 1px solid purple;
-  padding: 10px;
-  margin-right: 10px;
-}
-
 #title {
   text-align: center;
 }
