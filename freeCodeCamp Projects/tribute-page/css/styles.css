@@ -8,31 +8,49 @@ body {
 
 #main {
   display: grid;
-  grid-template-areas: "nav nav nav", "content content content",
-    "footer footer footer";
+  grid-template-areas: "header header header", "content content content", "footer footer footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto-fit);
+  overflow-x: hidden;
 }
 
 #nav {
-    grid-area: "nav";
-    border: 1px solid orange;
-    background-color: lightblue;
-    /* position: fixed; */
-    width: 100%;
+  grid-area: "header";
+  border: 1px solid orange;
+  background-color: lightblue;
+  /* position: fixed; */
+  width: 100%;
 }
 
 #nav_list {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 5px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 5px;
 }
 
 .nav_item {
-    border: 1px solid purple;
-    padding: 10px;
-    margin-right: 10px;
+  border: 1px solid purple;
+  padding: 10px;
+  margin-right: 10px;
 }
 
 #title {
-    text-align: center;
+  text-align: center;
+}
+
+#img-div {
+  grid-area: content;
+  display: grid;
+  width: 100%;
+  justify-items: center;
+}
+
+img {
+  width: 30%;
+  display: block;
+}
+#footer {
+  width: 100%;
+  background: lightsalmon;
 }
