@@ -46,14 +46,20 @@ body {
   padding: 20px 0;
 }
 
-img {
-  justify-self: center;
-  align-self: center;
-  width: 80%;
-  /* max-width: 40%; */
+.images {
+  width: 100%;
   display: block;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+figure {
+  align-self: center;
+}
+
+.figcaption {
+  padding-top: 5px;
+  text-align: center;
 }
 
 #timeline {
