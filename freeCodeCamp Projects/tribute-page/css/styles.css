@@ -30,12 +30,12 @@ a {
 }
 
 #img-div {
-  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
   background-color: rgba(128, 128, 128, 0.3);
   padding: 20px 0;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 .images {
