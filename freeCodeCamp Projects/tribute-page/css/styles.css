@@ -1,0 +1,34 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  display: grid;
+  grid-template-areas: "nav nav nav", "content content content",
+    "footer footer footer";
+}
+
+#nav {
+    grid-area: "nav";
+    border: 1px solid orange;
+    background-color: lightblue;
+    position: fixed;
+    width: 100%;
+}
+
+#nav_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+}
+
+.nav_item {
+    border: 1px solid purple;
+    padding: 10px;
+    margin-right: 10px;
+}
