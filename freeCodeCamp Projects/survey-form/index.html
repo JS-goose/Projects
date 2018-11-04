@@ -37,7 +37,7 @@
                         <input type="number" id="age">
                     </li>
                     <li>
-                        <label for="" id="role-select">Which best describes your current role?</label>
+                        <label for="role-select">Which best describes your current role?</label>
                         <select name="role-select" id="role-select">
                             <option value="" disabled>Select one</option>
                             <option value="student">Student</option>
@@ -49,7 +49,7 @@
                     </li>
                     <li>
                         <fieldset>
-                            <legend>How likely are you to recommend freeCodeCamp to a friend</legend>
+                            <legend>How likely are you to recommend freeCodeCamp to a friend?</legend>
 
                             <input type="radio" name="selection" value="definitely" id="definitely" checked>
                             <label for="definitely">Definitely</label>
@@ -57,7 +57,17 @@
                             <label for="maybe">Maybe</label>
                             <input type="radio" name="selection" value="not sure" id="not sure">
                             <label for="not sure">Not Sure</label>
-                        </fieldset> 
+                        </fieldset>
+                    </li>
+                    <li>
+                        <label for="like-selection">Which best describes your current role?</label>
+                        <select name="like-selection" id="like-selection">
+                            <option value="" disabled>Select one</option>
+                            <option value="student">Challenges</option>
+                            <option value="full time">Projects</option>
+                            <option value="full time learner">Community</option>
+                            <option value="prefer not to say">Open Source</option>
+                        </select>
                     </li>
                 </ul>
             </form>
