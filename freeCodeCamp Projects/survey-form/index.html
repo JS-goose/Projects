@@ -26,16 +26,16 @@
         <section id="form-container">
             <form action="submit" id="survey-form">
                 <ul id="form-list">
-                    <li><label for="name">Name</label>
-                        <input type="text" id="name" placeholder="Jonathan Sexton">
+                    <li><label for="name">Name:</label>
+                        <input type="text" id="name" required placeholder="Jonathan Sexton">
                     </li>
                     <li>
-                        <label for="email">Email</label>
-                        <input type="text" id="email" placeholder="me@jonathansexton.me">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required placeholder="me@jonathansexton.me">
                     </li>
                     <li>
-                        <label for="age">Age</label>
-                        <input type="number" id="number" placeholder="Enter your age">
+                        <label for="age">Age:</label>
+                        <input type="number" id="number" required placeholder="Enter your age">
                     </li>
                     <li>
                         <label for="role-select">Which best describes your current role?</label>
@@ -52,11 +52,11 @@
                         <fieldset>
                             <legend>How likely are you to recommend freeCodeCamp to a friend?</legend>
 
-                            <input type="radio" name="selection" value="definitely" id="definitely" checked>
+                            <input type="radio" name="selection" value="1" id="definitely" checked>
                             <label for="definitely">Definitely</label>
-                            <input type="radio" name="selection" value="maybe" id="maybe">
+                            <input type="radio" name="selection" value="2" id="maybe">
                             <label for="maybe">Maybe</label>
-                            <input type="radio" name="selection" value="not sure" id="not sure">
+                            <input type="radio" name="selection" value="3" id="not sure">
                             <label for="not sure">Not Sure</label>
                         </fieldset>
                     </li>
