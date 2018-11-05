@@ -8,9 +8,18 @@ body {
 
 #main {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     width: 100%;
     align-items: center;
+}
+
+#survey-form {
+    display: flex;
+    justify-content: center;
+}
+
+#form-list {
+    width: 50%;
 }
 
 #form-list li {
