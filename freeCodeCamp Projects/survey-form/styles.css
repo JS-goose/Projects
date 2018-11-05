@@ -11,6 +11,7 @@ body {
     flex-flow: column nowrap;
     width: 100%;
     align-items: center;
+    background-color: lightblue;
 }
 
 #form-container {
@@ -22,6 +23,10 @@ body {
 
 #survey-form {
     display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 50%;
+    background-color: white;
 }
 
 #form-list li {
