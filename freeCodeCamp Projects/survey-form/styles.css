@@ -27,11 +27,12 @@ body {
     align-items: center;
     width: 50%;
     background-color: white;
+    border-radius: 5px;
 }
 
 #form-list li {
     display: flex;
     list-style: none;
-    padding: 20px;
+    padding: 10px 0px 25px 0;
     align-items: center;
 }
