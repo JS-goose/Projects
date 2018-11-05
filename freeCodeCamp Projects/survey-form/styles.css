@@ -5,3 +5,15 @@ body {
     font-size: 14;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#form-list {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+}
+
+#form-list li {
+    padding: 20px;
+}
