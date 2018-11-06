@@ -47,6 +47,17 @@ body {
     padding-right: 10px;
 }
 
+button {
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+button:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
 @media screen and (max-width: 720px) {
     #survey-form {
         width: 65%;
