@@ -42,3 +42,30 @@ body {
 #form-list label {
     padding-right: 10px;
 }
+
+@media screen and (max-width: 720px) {
+    #survey-form {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #survey-form {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #survey-form {
+        width: 100%;
+        text-align: left;
+    }
+
+    #form-container {
+        align-items: flex-end;
+    }
+
+    #form-list label {
+        padding: 0;
+    }
+}
