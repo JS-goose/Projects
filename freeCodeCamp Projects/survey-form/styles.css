@@ -14,6 +14,10 @@ body {
     background-color: lightblue;
 }
 
+#title {
+    font-size: 1.8rem;
+}
+
 #form-container {
     display: flex;
     flex-flow: column nowrap;
