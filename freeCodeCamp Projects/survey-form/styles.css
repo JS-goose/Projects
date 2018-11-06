@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 14;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #main {
@@ -28,6 +28,8 @@ body {
     width: 50%;
     background-color: white;
     border-radius: 5px;
+    padding: 10px;
+
 }
 
 #form-list li {
@@ -35,4 +37,8 @@ body {
     list-style: none;
     padding: 10px 0px 25px 0;
     align-items: center;
+}
+
+#form-list label {
+    padding-right: 10px;
 }
