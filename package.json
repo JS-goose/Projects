@@ -18,6 +18,7 @@
   "homepage": "https://github.com/JS-goose/Projects#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
     "imagemin": "^6.1.0"
   }
 }
