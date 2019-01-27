@@ -1,0 +1,23 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "Projects from many different sources (courses I've taken, ideas I've had, etc.).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JS-goose/Projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JS-goose/Projects/issues"
+  },
+  "homepage": "https://github.com/JS-goose/Projects#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "imagemin": "^6.1.0"
+  }
+}
