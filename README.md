@@ -1,4 +1,5 @@
-# Projects
+# Projects - This repo is deprecated 
+I have moved on to structuring each project in its own repo as opposed to having them all in a centralized location.
 
 Projects from many different sources (courses I've taken, ideas I've had, etc.).
 
